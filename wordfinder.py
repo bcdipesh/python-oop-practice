@@ -8,6 +8,12 @@ class WordFinder:
     >>> wf = WordFinder('words.txt')
     235886 words read
 
+    >>> isinstance(wf.words, list)
+    True
+
+    >>> isinstance(wf.words[0], str)
+    True
+
     """
 
     def __init__(self, path):
